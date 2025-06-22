@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff2cd;
+}
+
+.header1 {
+    background-color: rgb(57, 127, 196);
+    margin-bottom: 1rem;
+    color: white;
+    padding: 1rem;
+}
+
+nav {
+    background-color: rgb(128, 204, 240);
+    bottom: black;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: o;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a:link {
+    color: black;
+    text-decoration: none;
+   
+}
+
+nav ul li a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(149, 21, 199);
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+nav ul li a:active {
+    color: red;
+    text-decoration: underline;
+}
+
+section {
+    background-color: rgb(128, 204, 240);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+}
+.logo {
+    background-color: rgb(128, 204, 240);
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.titulo {
+    background-color: rgb(57, 127, 196);
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.texto {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+
+
+}
